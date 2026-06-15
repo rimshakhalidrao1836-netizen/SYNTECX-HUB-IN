@@ -1,0 +1,15 @@
+Data Distribution Analysis using Python
+This project analyzes data distribution using Python. 
+It generates synthetic datasets for two groups, visualizes their distributions with histograms and boxplots, and computes descriptive statistics. 
+The goal is to demonstrate data visualization and basic statistical analysis using pandas, numpy, matplotlib, and seaborn.
+
+Features
+Synthetic Data Generation: Creates two normally distributed datasets representing Group A and Group B.
+Histogram with KDE: Plots overlapping histograms with Kernel Density Estimation to compare distributions.
+Boxplot Analysis: Identifies outliers and compares data spread across groups.
+Descriptive Statistics: Outputs summary statistics and skewness for each group.Automatic Export: Saves generated plots as PNG files for reporting.
+Language: Python 3.8+
+Libraries: pandas, numpy, matplotlib, seaborn
+
+
+
