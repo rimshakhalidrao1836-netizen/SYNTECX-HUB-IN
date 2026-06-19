@@ -1,0 +1,26 @@
+COVID-19 Data Analysis
+Project 3 - SYNTECXHUB Data Science Internship
+
+What this project does
+I worked with the Johns Hopkins COVID-19 dataset to look at how cases changed over time for a few countries. The script cleans the data, calculates daily and weekly trends, and plots comparisons so you can see the differences at a glance.
+
+Data used
+The data comes directly from the public Johns Hopkins GitHub repo. It has daily confirmed cases for every country since early 2020.
+
+Tools
+Python, Pandas for handling the data, Matplotlib and Seaborn for the charts. Nothing fancy, just the standard stuff for data analysis.
+
+What the code does
+1. Downloads and reshapes the raw data so it’s easier to work with
+2. Groups it by country and calculates daily new cases
+3. Creates a 7-day rolling average to smooth out spikes
+4. Plots total cases and rolling averages for US, India, Brazil, Pakistan, and Italy
+5. Finds the day with the highest daily cases for each country
+6. Gives a basic idea of whether cases are rising or falling in the last 2 weeks
+7. Saves the charts and a couple of CSV summaries
+
+Files you get after running
+- total_cases_comparison.png: chart of total cases over time
+- rolling_avg_comparison.png: chart of 7-day average daily cases  
+- peak_cases_summary.csv: peak daily cases for each country
+- r0_estimate.csv: simple trend estimate for the last 14 days
