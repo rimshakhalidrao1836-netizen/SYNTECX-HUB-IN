@@ -1,0 +1,20 @@
+
+Project 04
+Sales Analysis using Python to evaluate retail sales performance, calculate KPIs, identify business trends, and visualize insights for decision-making.
+Features
+• Total Revenue
+• Average Order Value (AOV)
+• Top Products
+• Top Regions
+• Monthly Sales Trend
+• Business Recommendations
+Tools & Libraries
+Python 3, Pandas, Matplotlib
+Project Structure
+sales_analysis.py – Main analysis script
+README.docx – Project documentation
+Output
+The program generates KPI results in the console and displays charts for product performance, regional sales, and monthly sales trends.
+Conclusion
+The analysis highlights high-performing products and regions, enabling data-driven business decisions and improved sales strategies.
+
